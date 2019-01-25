@@ -5,6 +5,7 @@
 html,body {
   margin: 0px;
   padding: 0px;
+  scroll-behavior: smooth;
 }
 
 /* Title */
@@ -19,12 +20,47 @@ h1 {
   text-shadow: 3px 2px #000000;
 }
 
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 90px;
+  }
+}
+
+@media (max-width: 1100px) {
+  h1 {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+  }
+}
+
+
+/* h2 */
+
 h2 {
   font-family: verdana;
   font-size: 24px;
   margin-bottom: 0px;
   margin-top: 10px;
 }
+
+@media (max-width: 1340px) {
+  h2 {
+    font-size: 20px;
+  }
+}
+
+/* h3 */
 
 h3 {
   color: #5eb8b6;
@@ -120,6 +156,7 @@ p {
   text-align: center;
   font-size: 40px;
   font-family: verdana;
+  padding-top: 10px;
 }
 
 .circles {
@@ -135,6 +172,22 @@ p {
   font-weight: bold;
 
 }
+
+.circles-tablet {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  display: none;
+}
+
+.circles-tablet p {
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
 
 .circle-img {
 
@@ -170,13 +223,6 @@ p {
   visibility: hidden;
 }
 
-.line {
-  height: 10px;
-  background-color: white;
-  border-bottom-style: dashed;
-  margin-top: 30px;
-}
-
 /* Icon in subheader */
 .box img {
   width: 40px;
@@ -187,14 +233,25 @@ p {
   margin-right: 10px;
 }
 
+@media (max-width: 1340px) {
+
+  .box img {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+    margin-right: 10px;
+  }
+
+}
+
+/* Ikon och rubrik */
 .box-title {
   display: flex;
   justify-content: center;
-
 }
 
-.box-title img {
-}
 
 .box-sub {
   /* display: flex;
@@ -212,6 +269,11 @@ p {
   margin-top: 50px;
 
 }
+
+.box-tablet1, .box-tablet2, .box-tablet3 {
+  display: none;
+}
+
 
 /* .box-element1 {
   margin-top: 0px;
@@ -231,6 +293,7 @@ p {
   padding-bottom: 20px;
 }
 
+/* "The latest news about" */
 .box h4 {
   margin-top: 10px;
   border-top-style: solid;
@@ -241,11 +304,94 @@ p {
 
 }
 
-.article-box {
+/* .article-box {
 background-color: #5eb8b64d;
 padding: 12px;
 margin-bottom: 12px;
 
+} */
+
+.articlebox {
+  background-color: #5eb8b64d;
+  padding: 12px;
+  padding-bottom: 0px;
+  margin-bottom: 15px;
+  box-shadow: 2px 2px 5px #95959599;
+
+}
+
+.articlebox h6 {
+font-family: verdana;
+font-size: 10px;
+font-style: italic;
+font-weight: lighter;
+
+}
+
+.articlebox h3 {
+font-size: 14px;
+color: black;
+font-family: verdana;
+margin-top: 2px;
+margin-bottom: 7px;
+padding-left: 3px;
+
+}
+
+.articlebox p {
+  font-size: 12px;
+  margin-top: 0px;
+  padding-left: 3px;
+  margin-bottom: 10px;
+
+}
+
+.articlebox a {
+  font-size: 10px;
+}
+
+.time {
+display: flex;
+margin-top: 10px;
+
+}
+
+.time img {
+  height: 20px;
+  width: 20px;
+  margin-top: 1px;
+  margin-right: 7px;
+
+}
+
+.timereadMore {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5px;
+  padding-right: 2px;
+  margin-bottom: 0px;
+}
+
+.timereadMore a {
+  padding: 10px;
+  background-color: #5eb8b6;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: verdana;
+  font-weight: bold;
+  margin-bottom: 14px;
+  box-shadow: 2px 2px 8px #95959599;
+}
+
+.timereadMore a:hover {
+  background-color: grey;
+
+}
+
+.time h6 {
+  margin-top: 5px;
+  font-size: 10px;
 }
 
 .footer {
@@ -271,10 +417,54 @@ margin-bottom: 12px;
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
-  .box-element, .box-element1 {
-    display: inline;
+.box-element, .box-element1 {
+  display: none;
 
 }
+
+.box-tablet1, .box-tablet2, .box-tablet3 {
+  display: flex;
+  justify-content: center;
+}
+
+.box-tablet1 {
+  margin-top: 50px;
+}
+
+
+
+}
+
+/* Responsive TABLET larger */
+
+@media (min-width: 768px) and (max-width: 1250px) {
+
+.circles-tablet {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+}
+
+.circles {
+  display: none;
+}
+
+
+.box-element, .box-element1 {
+  display: none;
+
+}
+
+.box-tablet1, .box-tablet2, .box-tablet3 {
+  display: flex;
+  justify-content: center;
+}
+
+.box-tablet1 {
+  margin-top: 50px;
+}
+
 
 }
 

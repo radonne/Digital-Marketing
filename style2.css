@@ -1,0 +1,17 @@
+.hideDIV {
+  display: none;
+}
+
+.button2 {
+  background-color: blue;
+  color: white;
+}
+
+.myButton {
+  background: green;
+  color: white;
+}
+
+.output2 {
+  font-size: 30px;
+}
