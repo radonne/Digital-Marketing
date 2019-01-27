@@ -19,7 +19,7 @@ newsArticle.articles.forEach((article) => {
         <img src="time.png" alt="Publishing date">
         <h6>${moment(article.publishedAt).format("MMMM Do YYYY")}</h6>
       </div>
-    <a href=${article.url}>Read more</a>
+    <a target="_blank" href=${article.url}>Read more</a>
   </div>
   </div>`
 })
@@ -37,7 +37,7 @@ newsArticle.articles.forEach((article) => {
         <img src="time.png" alt="Publishing date">
         <h6>${moment(article.publishedAt).format("MMMM Do YYYY")}</h6>
       </div>
-    <a href=${article.url}>Read more</a>
+    <a target="_blank" href=${article.url}>Read more</a>
   </div>
   </div>`
 })
@@ -55,7 +55,7 @@ newsArticle.articles.forEach((article) => {
         <img src="time.png" alt="Publishing date">
         <h6>${moment(article.publishedAt).format("MMMM Do YYYY")}</h6>
       </div>
-    <a href=${article.url}>Read more</a>
+    <a target="_blank" href=${article.url}>Read more</a>
   </div>
   </div>`
 })
@@ -73,7 +73,7 @@ newsArticle.articles.forEach((article) => {
         <img src="time.png" alt="Publishing date">
         <h6>${moment(article.publishedAt).format("MMMM Do YYYY")}</h6>
       </div>
-    <a href=${article.url}>Read more</a>
+    <a target="_blank" href=${article.url}>Read more</a>
   </div>
   </div>`
 })
@@ -91,7 +91,7 @@ newsArticle.articles.forEach((article) => {
         <img src="time.png" alt="Publishing date">
         <h6>${moment(article.publishedAt).format("MMMM Do YYYY")}</h6>
       </div>
-    <a href=${article.url}>Read more</a>
+    <a target="_blank" href=${article.url}>Read more</a>
   </div>
   </div>`
 })
@@ -109,7 +109,7 @@ newsArticle.articles.forEach((article) => {
           <img src="time.png" alt="Publishing date">
           <h6>${moment(article.publishedAt).format("MMMM Do YYYY")}</h6>
         </div>
-      <a href=${article.url}>Read more</a>
+      <a target="_blank" href=${article.url}>Read more</a>
     </div>
   </div>`
 })

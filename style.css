@@ -20,6 +20,17 @@ h1 {
   text-shadow: 3px 2px #000000;
 }
 
+@media (min-width: 2000px) {
+  h1 {
+    font-size: 150px;
+  }
+
+  .headerlink h2 {
+    font-size: 50px;
+  }
+
+}
+
 @media (max-width: 1200px) {
   h1 {
     font-size: 90px;
@@ -106,15 +117,15 @@ p {
 .header {
   background-image: url("file:///Users/josefine.radonne/Documents/Kodarkurs/digital%20marketing%20header2.png");
   background-repeat: no-repeat;
-  height: 800px;
+  height: 700px;
   background-color: #000000;
-  background-position: center;
+  background-position: top;
   background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: sticky;
-  top: -740px;
+  top: -640px;
   z-index: 1;
   margin-bottom: 20px;
 }
@@ -151,6 +162,19 @@ p {
   font-weight: bold;
 }
 
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .headerlink {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .headerlink {
+    font-size: 14px;
+  }
+
+}
+
 /* Kategorirubrik */
 .categories {
   text-align: center;
@@ -171,10 +195,7 @@ p {
 .circles p {
   font-size: 18px;
   font-weight: bold;
-
 }
-
-
 
 .circle-img {
 
@@ -240,12 +261,6 @@ p {
 }
 
 
-.box-sub {
-  /* display: flex;
-  justify-content: center;
-  margin-top: 0px;
-  padding-top: 0px; */
-}
 
 .box-element {
   display: flex;
@@ -279,12 +294,6 @@ p {
 
 }
 
-/* .article-box {
-background-color: #5eb8b64d;
-padding: 12px;
-margin-bottom: 12px;
-
-} */
 
 .articlebox {
   background-color: #5eb8b64d;
@@ -294,6 +303,7 @@ margin-bottom: 12px;
   box-shadow: 2px 2px 5px #95959599;
 
 }
+
 
 .articlebox h6 {
 font-family: verdana;
@@ -380,12 +390,15 @@ margin-top: 10px;
   padding-top: 34px;
   text-align: center;
   font-size: 30px;
+  letter-spacing: 2px;
+
 }
 
 .footer p {
   color: white;
   font-size: 18px;
   text-align: center;
+  letter-spacing: 3px;
 }
 
 /* Responsive TABLET */
@@ -415,20 +428,8 @@ margin-top: 10px;
 
   .categories {
     display: none;
-  }
-
-  .circles img {
-    width: 70%;
-  }
-
-  .circles p {
-    font-size: 40px;
-    font-weight: bold;
 
   }
-
-
-
 
 
 
