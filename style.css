@@ -140,19 +140,10 @@ p {
 }
 
 /* Fungerar inte? med över 2500 */
-@media (min-width: 2500px) and (max-width: 3000px) {
+@media (min-width: 2500px) {
   .header {
-    background-image: url("digital marketing header2.png");
-    background-repeat: no-repeat;
     height: 1500px;
-    background-color: #000000;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: sticky;
-    top: -1040px;
+    top: -1440px;
     z-index: 1;
     margin-bottom: 20px;
   }
@@ -165,16 +156,7 @@ p {
 
 @media (min-width: 2000px) {
   .header {
-    background-image: url("digital marketing header2.png");
-    background-repeat: no-repeat;
     height: 900px;
-    background-color: #000000;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: sticky;
     top: -840px;
     z-index: 1;
     margin-bottom: 20px;
@@ -188,16 +170,7 @@ p {
 
 @media (max-width: 1400px) {
   .header {
-    background-image: url("digital marketing header2.png");
-    background-repeat: no-repeat;
     height: 700px;
-    background-color: #000000;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: sticky;
     top: -640px;
     z-index: 1;
     margin-bottom: 20px;
@@ -214,16 +187,7 @@ p {
 
 @media (max-width: 1300px) {
   .header {
-    background-image: url("digital marketing header2.png");
-    background-repeat: no-repeat;
     height: 700px;
-    background-color: #000000;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: sticky;
     top: -640px;
     z-index: 1;
     margin-bottom: 20px;
@@ -241,16 +205,7 @@ p {
 
 @media (max-width: 1230px) {
   .header {
-    background-image: url("digital marketing header2.png");
-    background-repeat: no-repeat;
     height: 700px;
-    background-color: #000000;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: sticky;
     top: -640px;
     z-index: 1;
     margin-bottom: 20px;
@@ -268,16 +223,7 @@ p {
 
 @media (max-width: 1100px) {
   .header {
-    background-image: url("digital marketing header2.png");
-    background-repeat: no-repeat;
     height: 600px;
-    background-color: #000000;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: sticky;
     top: -440px;
     z-index: 1;
     margin-bottom: 20px;
@@ -292,19 +238,9 @@ p {
   }
 }
 
-
 @media (max-width: 900px) {
   .header {
-    background-image: url("digital marketing header2.png");
-    background-repeat: no-repeat;
     height: 500px;
-    background-color: #000000;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: sticky;
     top: -440px;
     z-index: 1;
     margin-bottom: 20px;
@@ -321,16 +257,7 @@ p {
 
 @media (max-width: 700px) {
   .header {
-    background-image: url("digital marketing header2.png");
-    background-repeat: no-repeat;
     height: 400px;
-    background-color: #000000;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: sticky;
     top: -320px;
     z-index: 1;
     margin-bottom: 20px;
