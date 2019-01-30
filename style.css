@@ -55,6 +55,15 @@ h1 {
   }
 }
 
+@media (max-width: 700px) {
+  h1 {
+    font-size: 40px;
+    margin-top: 100px;
+    padding-top: 0px;
+  }
+}
+
+
 
 /* h2 */
 
@@ -115,11 +124,11 @@ p {
 
 /* Header */
 .header {
-  background-image: url("file:///Users/josefine.radonne/Documents/Kodarkurs/digital%20marketing%20header2.png");
+  background-image: url("header.png");
   background-repeat: no-repeat;
   height: 700px;
   background-color: #000000;
-  background-position: top;
+  background-position: center;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -130,6 +139,223 @@ p {
   margin-bottom: 20px;
 }
 
+/* Fungerar inte? med över 2500 */
+@media (min-width: 2500px) and (max-width: 3000px) {
+  .header {
+    background-image: url("digital marketing header2.png");
+    background-repeat: no-repeat;
+    height: 1500px;
+    background-color: #000000;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: -1040px;
+    z-index: 1;
+    margin-bottom: 20px;
+  }
+
+  .header a {
+    font-size: 30px;
+  }
+
+}
+
+@media (min-width: 2000px) {
+  .header {
+    background-image: url("digital marketing header2.png");
+    background-repeat: no-repeat;
+    height: 900px;
+    background-color: #000000;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: -840px;
+    z-index: 1;
+    margin-bottom: 20px;
+  }
+
+  .header a {
+    font-size: 30px;
+  }
+
+}
+
+@media (max-width: 1400px) {
+  .header {
+    background-image: url("digital marketing header2.png");
+    background-repeat: no-repeat;
+    height: 700px;
+    background-color: #000000;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: -640px;
+    z-index: 1;
+    margin-bottom: 20px;
+  }
+
+  .header a {
+    font-size: 18px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+  }
+
+}
+
+@media (max-width: 1300px) {
+  .header {
+    background-image: url("digital marketing header2.png");
+    background-repeat: no-repeat;
+    height: 700px;
+    background-color: #000000;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: -640px;
+    z-index: 1;
+    margin-bottom: 20px;
+
+  }
+
+  .header a {
+    font-size: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+  }
+
+}
+
+@media (max-width: 1230px) {
+  .header {
+    background-image: url("digital marketing header2.png");
+    background-repeat: no-repeat;
+    height: 700px;
+    background-color: #000000;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: -640px;
+    z-index: 1;
+    margin-bottom: 20px;
+
+  }
+
+  .header a {
+    font-size: 14px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+  }
+
+}
+
+@media (max-width: 1100px) {
+  .header {
+    background-image: url("digital marketing header2.png");
+    background-repeat: no-repeat;
+    height: 600px;
+    background-color: #000000;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: -440px;
+    z-index: 1;
+    margin-bottom: 20px;
+
+  }
+
+  .header a {
+    font-size: 12px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+  }
+}
+
+
+@media (max-width: 900px) {
+  .header {
+    background-image: url("digital marketing header2.png");
+    background-repeat: no-repeat;
+    height: 500px;
+    background-color: #000000;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: -440px;
+    z-index: 1;
+    margin-bottom: 20px;
+
+  }
+
+  .header a {
+    font-size: 12px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+  }
+}
+
+@media (max-width: 700px) {
+  .header {
+    background-image: url("digital marketing header2.png");
+    background-repeat: no-repeat;
+    height: 400px;
+    background-color: #000000;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: -320px;
+    z-index: 1;
+    margin-bottom: 20px;
+
+  }
+
+  .header a {
+    font-size: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .header h1 {
+    top: 50px;
+  }
+
+  .footer p {
+    letter-spacing: 0px;
+    font-size: 10px;
+
+  }
+
+}
+
+
 .header h1 {
   top: 300px;
 }
@@ -139,8 +365,8 @@ p {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
   background-color: #000000b3;
   position: sticky;
   top: 0;
@@ -151,7 +377,7 @@ p {
 
 /* Menylänkar */
 .headerlink {
-  width: 230px;
+  width: auto;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -160,6 +386,7 @@ p {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: bold;
+
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {
