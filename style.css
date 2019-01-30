@@ -442,7 +442,7 @@ p {
 
 
 .circle-img a:hover::after {
-  background: url("read more button2.png") no-repeat;
+  background: url("readmorebutton.png") no-repeat;
   content: "";
   height: 150px;
   width: 150px;
