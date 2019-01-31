@@ -164,6 +164,15 @@ p {
     font-size: 50px;
   }
 
+  .footerMobile {
+    display: none;
+  }
+
+  .footer {
+    display: block;
+  }
+
+
 
 }
 
@@ -185,24 +194,41 @@ p {
     margin-bottom: 50px;
   }
 
+  .footerMobile {
+    display: none;
+  }
+
+  .footer {
+    display: block;
+  }
+
+
 }
 
 @media (min-width: 2000px) and (max-width: 2499px) {
   .header {
     height: 900px;
-    top: -840px;
+    top: -830px;
     z-index: 1;
     margin-bottom: 20px;
   }
 
   .header a {
-    font-size: 30px;
+    font-size: 24px;
   }
 
   h1 {
     font-size: 140px;
     margin-top: 50px;
     margin-bottom: 70px;
+  }
+
+  .footerMobile {
+    display: none;
+  }
+
+  .footer {
+    display: block;
   }
 
 
@@ -223,6 +249,15 @@ p {
 
   }
 
+  .footerMobile {
+    display: none;
+  }
+
+  .footer {
+    display: block;
+  }
+
+
 }
 
 @media (min-width: 1300px) and (max-width: 1399px) {
@@ -240,6 +275,15 @@ p {
     padding-right: 0px;
 
   }
+
+  .footerMobile {
+    display: none;
+  }
+
+  .footer {
+    display: block;
+  }
+
 
 }
 
@@ -259,6 +303,15 @@ p {
 
   }
 
+  .footerMobile {
+    display: none;
+  }
+
+  .footer {
+    display: block;
+  }
+
+
 }
 
 @media (min-width: 1100px) and (max-width: 1229px) {
@@ -276,6 +329,15 @@ p {
     padding-right: 0px;
 
   }
+
+  .footerMobile {
+    display: none;
+  }
+
+  .footer {
+    display: block;
+  }
+
 }
 
 @media (min-width: 900px) and (max-width: 1099px) {
@@ -293,6 +355,15 @@ p {
     padding-right: 0px;
 
   }
+
+  .footerMobile {
+    display: none;
+  }
+
+  .footer {
+    display: block;
+  }
+
 }
 
 @media (min-width: 680px) and (max-width: 899px) {
@@ -322,6 +393,15 @@ p {
     padding-top: 0px;
   }
 
+  .footerMobile {
+    display: none;
+  }
+
+  .footer {
+    display: block;
+  }
+
+
 }
 
 @media (max-width: 679px) {
@@ -350,6 +430,14 @@ p {
     display: none;
   }
 
+  .footerMobile {
+    display: block;
+  }
+
+  .footer {
+    display: none;
+  }
+
 }
 
 @media (max-width: 300px) {
@@ -357,6 +445,15 @@ p {
   .header h1 {
     font-size: 30px;
   }
+
+  .footerMobile {
+    display: block;
+  }
+
+  .footer {
+    display: none;
+  }
+
 }
 
 
@@ -607,25 +704,47 @@ margin-top: 10px;
 }
 
 .footer {
-  margin-top: 60px;
-  height: 150px;
+  margin-top: 50px;
+  height: 180px;
   background-color: #5eb8b6;
 }
 
-.footer h2 {
+.footerMobile {
+  margin-top: 50px;
+  height: 220px;
+  background-color: #5eb8b6;
+
+}
+
+.footer h2, .footerMobile h2 {
   color: white;
-  padding-top: 34px;
+  padding-top: 50px;
   text-align: center;
   font-size: 30px;
   letter-spacing: 2px;
 
 }
 
-.footer p {
+.footer p, .footerMobile p {
   color: white;
   font-size: 18px;
   text-align: center;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+
+.footer a, .footerMobile a {
+  text-decoration: none;
+  color: white;
+}
+
+.footerMobile a {
+  font-size: 20px;
+}
+
+.footer a:hover, .footerMobile a:hover {
+  color: #133852;
+  font-weight: bold;
 }
 
 /* Responsive TABLET */
